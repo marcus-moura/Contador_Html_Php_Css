@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family:"Roboto";
+    
+}
+
+body{
+    background-color: #131518;
+}
+
+.center{
+    max-width: 1100px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 0 2%;
+    
+}
+.responsive{
+    float: left;
+    width: 50%;
+    padding: 0 15px;
+}
+h2{
+    color:rgb(207, 219, 204);
+    margin-top: -40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family:Verdana;
+    font-variant: small-caps;
+}
+.container{
+    display: flex;
+    width: 350px;
+    height: 440px;
+    flex-direction: column;
+    box-shadow:0 8px 12px  0 rgb(109, 102, 102);
+    align-items: center;
+    padding: 50px 30px;
+    background-color: #282A2D;
+    border: solid 3px rgb(78, 73, 73);
+    border-radius: 20px;
+    text-align: center;
+    margin: 105px 340px ;
+
+
+}
+
+.container h3{
+    font-size: 20px;
+    font-weight: normal;
+    color:#ffff;
+    margin-bottom: -10px;
+}
+
+.container input[type="text"]{
+    width: 80px;
+    background-color: #1B1D20;
+    color: white;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 90%;
+    border: solid 4px #383636;
+
+}
+
+.container select{
+    width: 80px;
+    background-color: #1B1D20;
+    color: #ffff;
+    height: 40px;
+    border-radius: 10px;
+    opacity: 90%;
+    border: solid 4px #383636;
+    text-align: center;
+}
+.container select option{
+    font-size: 15px;
+    font-weight: bold;
+    color:whitesmoke;
+    
+}
+
+.container input[type="submit"]{
+    width: 100px;
+    margin-top: 25px;
+    height: 40px;
+    background-color: rgb(81, 255, 0);
+    border-radius: 6px;
+    opacity: 90%;
+    border: solid 2px #3aca1d;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #2b2828;
+    cursor: pointer;
+
+}
+.container input[type="submit"]:hover{
+    background-color: greenyellow;
+    box-shadow:0px 10px 20px 0 greenyellow;
+    padding: 10px;
+}
+
+/* Contando*/
+h1{
+    color:rgb(207, 219, 204);
+    
+    float: left;
+    font-weight: bold;
+    margin-bottom: -100px;
+    margin-top: 20px;
+    font-size: 35px;
+    margin-left: 620px;
+    font-family:Verdana;
+    font-variant: small-caps;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    max-width:100%;
+    max-height: 100%;
+    position: relative;
+    box-shadow:0 5px 10px 0 rgb(109, 102, 102);
+    align-items: center;
+    padding: 0 30px;
+    background-color: #282A2D;
+    border: solid 3px rgb(78, 73, 73);
+    border-radius: 20px;
+    text-align: center;
+    margin: 105px 140px ;
+    margin-top: 100px;
+    margin-left: 250px;
+    
+
+}
+.container2 h3{
+    
+    font-size: 22px;
+    color:#ffff;
+    
+    font-weight: normal;
+    margin-left: 12px;
+    
+    
+}
+.center2{
+    max-width: 1100px;
+    margin: 0 auto;
+    
+    padding: 0 2%;
+
+}
+
+.clear{
+    /*Centralizar o conteúdo*/
+    clear: both;
+}
+.container2 button {
+    float: left;
+    position: absolute;
+    left: 150px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(81, 255, 0);
+    cursor: pointer;
+    margin-top: 70px;
+    font-size: 25px;
+    box-shadow: 0 3px 5px 0 rgb(81, 255, 0);
+    border: solid 1px rgb(81, 255, 0);
+    color: #2b2828;
+    font-family: "Rubik", sans-serif;
+    font-weight:600;
+    
+}
+.container2 button:hover{
+    background-color: greenyellow;
+    box-shadow:0px 10px 20px 0 greenyellow;
+    padding: 8px;
+    
+}
+@media screen and (max-width: 768px){ 
+    .container{margin-left: 85px;
+        max-width: 100%;}
+    .container2 button{margin-left: -50%; align-items: center;} 
+    .container2{position: relative; margin-left:160px;left: -5%;}
+    .container2 h3{font-size: 15px;}
+    h1{margin-left: 170px;}
+}
